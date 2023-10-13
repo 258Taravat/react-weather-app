@@ -1,12 +1,12 @@
 import React from "react";
-import Weather from "./Weather";
+import Weather from "./Weather.js";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
       <div className="container">
-        <Weather />
+        <Weather defaultCity="New York" />
         <footer>
           {" "}
           This project was coded by{" "}
@@ -17,10 +17,7 @@ export default function App() {
             Taravat Yazdani
           </a>{" "}
           and it is{" "}
-          <a
-            href="https://github.com/258Taravat/react-weather-app"
-            target="_blank"
-          >
+          <a href="https://github.com/258Taravat/react-weather-app">
             open-sourced on Github
           </a>
           .
