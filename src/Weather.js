@@ -21,7 +21,7 @@ export default function Weather(props) {
   }
   function search() {
     const apiKey = "de2c40e370d58e257faf07ba4ea95840";
-    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metic`;
+    let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
   function handleSubmit(event) {

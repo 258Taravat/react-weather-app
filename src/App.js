@@ -13,11 +13,16 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/taravat-yazdani-539a21177/"
             target="_blank"
+            rel="noreferrer"
           >
             Taravat Yazdani
           </a>{" "}
           and it is{" "}
-          <a href="https://github.com/258Taravat/react-weather-app">
+          <a
+            href="https://github.com/258Taravat/react-weather-app"
+            target="_blank"
+            rel="noreferrer"
+          >
             open-sourced on Github
           </a>
           .
