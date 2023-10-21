@@ -1,9 +1,19 @@
 .App {
   max-width: 600px;
   margin: 0px auto;
+  margin-top: 60px;
 }
 .App footer {
   font-size: 11px;
   margin: 0 auto;
   padding: 0;
+  text-decoration: none;
+}
+.App footer a {
+  text-decoration: none;
+  color: green;
+}
+.weather {
+  margin: 0;
+  margin-bottom: 10px;
 }

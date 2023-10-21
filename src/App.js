@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="Tehran" />
-        <footer>
+        <footer className="ms-5">
           {" "}
           This project was coded by{" "}
           <a
@@ -23,9 +23,9 @@ export default function App() {
             target="_blank"
             rel="noreferrer"
           >
-            open-sourced on Github
-          </a>
-          .
+            open-source on Github,
+          </a>{" "}
+          and hosted on Netlify.
         </footer>
       </div>
     </div>
